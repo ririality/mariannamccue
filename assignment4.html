@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Name: Marianna McCue | Student Number: 301481506 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE Course Evaluation Form</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <a href="http://www.centennialcollege.ca">
+            <img src="logo.jpeg" alt="College Logo" id="logo">
+        </a>
+        <h1>Continuing Education Course/Instructor Evaluation</h1>
+    </header>
+
+    <main>
+        <form action="thankyou.html" method="post">
+            <label for="course-name">Course Name/Code:</label>
+            <input type="text" id="course-name" name="course-name" required>
+
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester" required>
+                <option value="fall">Fall</option>
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+            </select>
+            <label for="year">Year:</label>
+            <select id="year" name="year" required>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+
+            <label for="instructor">Instructor:</label>
+            <input type="text" id="instructor" name="instructor" required>
+
+            <h2>INSTRUCTOR</h2>
+
+            <label>1. How would you rate the instructor's knowledge of subject?</label>
+            <label><input type="radio" name="knowledge" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="knowledge" value="good"> Good</label>
+            <label><input type="radio" name="knowledge" value="fair"> Fair</label>
+            <label><input type="radio" name="knowledge" value="not-satisfactory"> Not Satisfactory</label>
+
+            <label>2. Helpfulness?</label>
+            <label><input type="radio" name="helpfulness" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="helpfulness" value="good"> Good</label>
+            <label><input type="radio" name="helpfulness" value="fair"> Fair</label>
+            <label><input type="radio" name="helpfulness" value="not-satisfactory"> Not Satisfactory</label>
+
+            <label>3. Courtesy and respect for all students?</label>
+            <label><input type="radio" name="courtesy" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="courtesy" value="good"> Good</label>
+            <label><input type="radio" name="courtesy" value="fair"> Fair</label>
+            <label><input type="radio" name="courtesy" value="not-satisfactory"> Not Satisfactory</label>
+
+            <label>4. Communication skills?</label>
+            <label><input type="radio" name="communication" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="communication" value="good"> Good</label>
+            <label><input type="radio" name="communication" value="fair"> Fair</label>
+            <label><input type="radio" name="communication" value="not-satisfactory"> Not Satisfactory</label>
+
+            <label>5. Overall performance?</label>
+            <label><input type="radio" name="performance" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="performance" value="good"> Good</label>
+            <label><input type="radio" name="performance" value="fair"> Fair</label>
+            <label><input type="radio" name="performance" value="not-satisfactory"> Not Satisfactory</label>
+
+            <h2>COURSE</h2>
+
+            <label>6. How would you rate the course materials?</label>
+            <label><input type="radio" name="materials" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="materials" value="good"> Good</label>
+            <label><input type="radio" name="materials" value="fair"> Fair</label>
+            <label><input type="radio" name="materials" value="not-satisfactory"> Not Satisfactory</label>
+
+           <label>7. How much did this course meet your expectations?</label>
+            <label><input type="radio" name="expectations" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="expectations" value="good"> Good</label>
+            <label><input type="radio" name="expectations" value="fair"> Fair</label>
+            <label><input type="radio" name="expectations" value="not-satisfactory"> Not Satisfactory</label>
+
+            <label>8. How would you rate this course (overall)?</label>
+            <label><input type="radio" name="overall" value="excellent" required> Excellent</label>
+            <label><input type="radio" name="overall" value="good"> Good</label>
+            <label><input type="radio" name="overall" value="fair"> Fair</label>
+            <label><input type="radio" name="overall" value="not-satisfactory"> Not Satisfactory</label>
+
+            <h2>GENERAL INFORMATION</h2>
+
+            <label>9. Was the course outline reviewed/explained at the beginning of your course?</label>
+            <label><input type="radio" name="outline" value="yes" required> Yes</label>
+            <label><input type="radio" name="outline" value="no"> No</label>
+            <label><input type="radio" name="outline" value="not-sure"> Not Sure</label>
+
+            <label>10. Would you recommend this course to a friend with the same interests?</label>
+            <label><input type="radio" name="recommend" value="yes" required> Yes</label>
+            <label><input type="radio" name="recommend" value="no"> No</label>
+            <label><input type="radio" name="recommend" value="not-sure"> Not Sure</label>
+
+            <h2>ANY OTHER COMMENTS</h2>
+
+            <label for="best-thing">11. What is the best thing about this course:</label>
+            <input type="text" id="best-thing" name="best-thing">
+
+            <label for="improvement">12. How could we improve this course:</label>
+            <input type="text" id="improvement" name="improvement">
+
+            <label for="other">13. Other:</label>
+            <textarea id="other" name="other" rows="3" cols="50" placeholder="Any other comments..."></textarea>
+
+            <input type="submit" value="Submit Evaluation">
+            <input type="reset" value="Clear Form">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>For more information, visit the college website under <a href="http://www.centennialcollege.ca/continuing_education"> Continuing Education </a> or contact us at <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>.</p>
+        <p><a href="index.html">Return to Home</a></p>
+        <p>&copy; 2024 Marianna McCue - Student Number: 301481506 - Assignment 4</p>
+    </footer>
+</body>
+</html>
