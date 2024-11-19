@@ -1,0 +1,366 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    color: #ffffff;
+    background-color: #2d2d2d; 
+    background-image: url('boardsbackground.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', sans-serif; 
+    color: #ffffff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+#top-bar {
+    background-color: #201d1d;
+    color: #cccccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header {
+    text-align: center; 
+    padding: 0px 0; 
+    background-color: #000000; 
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto; 
+    max-height: 100px; 
+    margin: 10px 0;
+}
+
+
+#header h1 {
+    color: rgb(183, 169, 65); 
+    font-family: 'Garamond', sans-serif; 
+    font-size: 2.5em; 
+    margin: 10px 0; 
+}
+
+.header-banner {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-image: url('banner2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 250px; 
+    justify-content: center; 
+    }
+    
+h2.location {
+    color: rgb(183, 169, 65); 
+    margin: 10px 0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    background-color: rgb(86, 49, 18);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 10px 20px; 
+}
+
+nav a:hover {
+    background-color: rgb(86, 49, 18); 
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000; 
+    border-radius: 5px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    background-color: #32373c; 
+    color: #ffffff;
+}
+
+form button {
+    padding: 10px; 
+    background-color: rgb(86, 49, 18);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #dbdbdb; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1f1b1a; 
+    color: #cccccc;
+}
+
+
+
+.es-menu-item {
+    margin-bottom: 30px; 
+}
+
+
+.centered {
+    text-align: center;
+    font-size: 1.5em; 
+    color: rgb(183, 169, 65); 
+    margin: 20px 0; 
+}
+
+
+.es-content {
+    background-color: #32373c; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 15px; 
+    margin: 10px 0;  
+    transition: background-color 0.3s; 
+}
+
+
+.es-title {
+    font-family: 'Garamond', serif; 
+    font-size: 1.3em; 
+    margin: 5px 0; 
+    color: #ffffff; 
+}
+
+
+.es-desc {
+    font-size: 1em; 
+    line-height: 1.4; 
+    color: #dddddd; 
+}
+
+
+.es-price, .price {
+    font-size: 1.2em; 
+    color: #975d00; 
+    font-weight: bold; 
+}
+
+
+.es-content:hover {
+    background-color: #444; 
+}
+#menu-banner {
+    background-image: url('menulogo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 2em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin-bottom: 20px; 
+}
+#menu-banner h2 {
+    color: rgb(183, 169, 65); 
+    font-family: 'Garamond', sans-serif; 
+}
+
+.menu-buttons {
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 20px; 
+}
+
+.menu-button {
+    background-color: rgb(86, 49, 18);
+    color: #ffffff; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: transform 0.3s ease; 
+    font-size: 1.2em; 
+}
+
+.menu-button:hover {
+    transform: scale(1.1); 
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+.menu-item {
+    background-color: #32373c; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 15px; 
+    margin: 5px; 
+    flex: 0 0 calc(30% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s; 
+}
+.menu-item:hover {
+    transform: scale(1.05); 
+}
+
+.menu-item img {
+    max-width: 100%; 
+    height: 320px; 
+    object-fit: cover;
+    border-radius: 5px; 
+}
+
+.menu-item h4 {
+    color: rgb(183, 169, 65); 
+    margin: 10px 0; 
+}
+
+.description {
+    color: #ffffff; 
+    margin: 10px 0; 
+}
+
+@media (max-width: 768px) { 
+    .menu-item {
+        flex: 0 0 calc(50% - 10px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        flex: 0 0 100%; 
+    }
+}
+#welcome-section {
+    background-color: rgba(54, 54, 54, 0.7); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    margin: 20px; 
+    text-align: center; 
+}
+
+
+#welcome-section h1 {
+    color: rgb(183, 169, 65); 
+    font-size: 2.5em; 
+    margin-bottom: 30px; 
+}
+
+
+#welcome-section p {
+    color: #ffffff; 
+    line-height: 1.6; 
+    font-size: 1.1em; 
+}
+
+
+#welcome-section h4 {
+    font-weight: bold; 
+    font-size: 1.5em; 
+    color: #975d00; 
+    margin-top: 20px; 
+}
+
+
+#welcome-section img {
+    max-width: 100%;
+}
+
+#hours-section {
+    background-color: rgba(54, 54, 54, 0.7); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    margin: 20px;
+    flex: 1; 
+}
+
+#hours-section h1 {
+    color: rgb(183, 169, 65); 
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
+}
+
+
+
+.contact-hours-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.hours-table td strong {
+    color: rgb(183, 169, 65); 
+}
+
+.hours-table td {
+    padding: 10px; 
+    border: 1px solid #ffffff; 
+    color: #ffffff; 
+}
+
+.hours-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
